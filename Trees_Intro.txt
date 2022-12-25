@@ -1,0 +1,61 @@
+Terminology:
+___________
+1-> Root-> Topmost Node
+2-> Parent-> Node which connect to the child
+3-> Child-> Node which is Connected by another Node is its child
+4-> Sibling-> Nodes belonging to the same parents.
+5-> Leaf(External Node)->Node with no children
+6-> Internal Node-> Node with one child
+7-> Depth->No of edges from root to the Node
+8-> Height-> No of edges from Node to the depth Leaf
+9-> Ancestor-> Previous all Nodes of Leaf.
+10-> Descendents-> Roots to the all Nodes.
+
+            <---------------->
+.Tree-> Non-Linear
+
+We use tree for ideal representation hierarchical data.
+
+
+Binary Tree:
+___________
+1-> Binary tree is a tree which has atleast 2 or 1 child.
+
+    Types of Binary Tree:
+    ____________________
+
+        1->Full or strict Binary Tree:
+            All Nodes have either 0 or 2 child.
+
+        2-> Perfect Binary Tree:
+            Internal Nodes have 2 child + All Leaf nodes are on same level.
+
+        3-> Complete Binary Tree:
+             All level are completely filled except possibly the last level +
+             Last level must align on left side.
+        4-> Degenerate Tree:
+            Parent Node has exactly one child.
+
+        5-> Skewed Tree:
+            left Skewed-> All the node is on left side.
+            Right Skewed-> All the Node is on right side.
+
+
+Representation of Binary Tree:
+_____________________________
+
+1-> Array Representation(Not Useful):
+2-> Linked Representation:
+
+Traversal Binary Tree:
+_____________________
+
+1-> Preorder Traversal:
+    Root->left sub-Tree -> Right sub-Tree
+2-> PostOrder Traversal:
+    left sub-Tree-> Right sub-Tree -> Root
+3-> In order Traversal:
+    Left sub-Tree -> Root -> Right sub-Tree
+
+
+
