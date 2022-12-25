@@ -31,8 +31,7 @@ ___________
             Internal Nodes have 2 child + All Leaf nodes are on same level.
 
         3-> Complete Binary Tree:
-             All level are completely filled except possibly the last level +
-             Last level must align on left side.
+             Binary tree in which every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible
         4-> Degenerate Tree:
             Parent Node has exactly one child.
 
