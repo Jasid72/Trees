@@ -18,7 +18,17 @@ public:
     void creat(int data);
     void preorder(Node *root);
     void postorder(Node *root);
+    void Inorder(Node *root);
 };
+
+void Tree::Inorder(Node *root) {
+    if(root!=NULL)
+    {
+        Inorder(root->left);
+        cout<<root->data;
+        Inorder(root->Right);
+    }
+}
 
 void Tree::postorder(Node *root) {
     if(root!=NULL)
