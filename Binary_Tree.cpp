@@ -17,7 +17,17 @@ private:
 public:
     void creat(int data);
     void preorder(Node *root);
+    void postorder(Node *root);
 };
+
+void Tree::postorder(Node *root) {
+    if(root!=NULL)
+    {
+        postorder(root->left);
+        postorder(root->Right);
+        cout << root->data;
+    }
+}
 
 void Tree::preorder(Node *root) {
     if(root != NULL)
@@ -38,7 +48,7 @@ void Tree::creat(int data) {
 
 int main()
 {
-    Tree r1, r2,r3,r4,r5, r6;
+    Tree r1, r2,r3,r4,r5;
     r1.creat(4);
     r2.creat(1);
     r3.creat(6);
